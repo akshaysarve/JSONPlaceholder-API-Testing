@@ -7,7 +7,6 @@
 This project contains API test cases written using Postman and executed via Newman (Postman's command-line companion). It includes:
 - Positive and negative test cases
 - Assertions for status codes, response times, and JSON schema
-- Data-driven testing using CSV
 - Response time validations
 - Schema validations
 
