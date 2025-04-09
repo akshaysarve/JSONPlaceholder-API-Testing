@@ -21,4 +21,5 @@ This project contains API test cases written using Postman and executed via Newm
 1. Install Newman: `npm install -g newman`
 2. Run the collection:
    ```bash
-   newman run My_API_Test_Collection.json -d TestData.csv
+   newman run "My_API_Test_Collection.postman_collection.json" -e "Local Dev.postman_environment.json"
+
